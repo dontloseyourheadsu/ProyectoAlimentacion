@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZED/LxGLwOEGzpjSEiavbm1HeVD8iiiZKmq48i3MY40=",
+  "Hash": "l2COg29yAO89tM4xUhnBV7kYJHAkyuEepgvQZ0YQlCk=",
   "Source": "SitioDeGuias",
   "BasePath": "/",
   "Mode": "Root",
@@ -6917,6 +6917,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\logo.png",
+      "SourceId": "SitioDeGuias",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\index.html",
