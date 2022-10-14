@@ -9,10 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c09df8e-ae6c-46af-bfe1-ef9f82265c68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SitioDeGuias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SitioDeGuias/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/SitioDeGuias.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/SitioDeGuias.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.staticwebassets.runtime.json" afterDir="false" />
@@ -21,6 +22,8 @@
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
@@ -31,14 +34,23 @@
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/wwwroot/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/134a6267445f46b7a8730761c018e904811000/b0/fc416648/MudTabs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/134a6267445f46b7a8730761c018e904811000/e9/2b5dd128/MudNavLink.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,6 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,6 +116,7 @@
       <updated>1665585655535</updated>
       <workItem from="1665585661599" duration="47000" />
       <workItem from="1665708152839" duration="3912000" />
+      <workItem from="1665719630557" duration="4129000" />
     </task>
     <servers />
   </component>

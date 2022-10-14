@@ -1,0 +1,18 @@
+/* /Shared/MainLayout.razor.rz.scp.css */
+div .displays-on-big[b-r6umvlujjx] {
+    display: none;
+}
+
+@media (min-width: 641px) {
+    div .displays-on-big[b-r6umvlujjx] {
+        display: revert;
+    }
+    
+    div .displays-on-small[b-r6umvlujjx] {
+        display: none;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.mud-navmenu.mud-navmenu-default .mud-nav-link.active-tds:not(.mud-nav-link-disabled)[b-tyhhh0che7] {
+    color: yellow;
+}

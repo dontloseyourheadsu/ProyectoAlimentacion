@@ -1,0 +1,13 @@
+div .displays-on-big[b-r6umvlujjx] {
+    display: none;
+}
+
+@media (min-width: 641px) {
+    div .displays-on-big[b-r6umvlujjx] {
+        display: revert;
+    }
+    
+    div .displays-on-small[b-r6umvlujjx] {
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+div .displays-on-big {
+    display: none;
+}
+
+@media (min-width: 641px) {
+    div .displays-on-big {
+        display: revert;
+    }
+    
+    div .displays-on-small {
+        display: none;
+    }
+}

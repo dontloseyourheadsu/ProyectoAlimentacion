@@ -5,23 +5,27 @@
 <MudSnackbarProvider/>
 
 <MudLayout>
-    <MudAppBar Style="@($"background: #252525; ")" Elevation="1">
-        <MudImage Height="45" Src="/images/logo.png" Alt="Tiempo de sites logo modificado"/>
+    <MudAppBar Class="d-flex justify-center" Style="@($"background: #252525; height: 80px")" Elevation="1">
+        <MudImage Height="60" Src="/images/logo.png" Alt="Tiempo de sites logo modificado"/>
         <MudSpacer/>
-        <MudTabs Style="@($"background: #252525;")" Rounded="true" ApplyEffectsToContainer="true" Color="@Color.Primary" SliderColor="Color.">
-            <MudTabPanel Style="@($"background: #252525;")" Text="Inicio"/>
-            <MudTabPanel Style="@($"background: #252525;")" Text="Platos"/>
-            <MudTabPanel Style="@($"background: #252525;")" Text="Guías"/>
-            <MudTabPanel Style="@($"background: #252525;")" Text="About"/>
-        </MudTabs>
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@(() => OpenDrawer(Anchor.End))"/>
+        <div class="displays-on-big">
+            <NavMenu Orientation="d-flex flex-row"/>
+        </div>
+        <div class="displays-on-small">
+            <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@(() => OpenDrawer(Anchor.End))"/>
+        </div>
     </MudAppBar>
-    <MudDrawer Style="@($"background: #252525; color: {Colors.Shades.White};")" @bind-Open="@open" Anchor="@anchor" Elevation="2" Variant="@DrawerVariant.Responsive">
-        <MudDrawerHeader>
-            <MudImage Height="45" Src="/images/logo.png" Alt="Tiempo de sites logo modificado"/>
-        </MudDrawerHeader>
-        <NavMenu/>
-    </MudDrawer>
+    
+    <div class="displays-on-small">
+        <MudDrawer Style="@($"background: #252525; color: {Colors.Shades.White};")" @bind-Open="@open" Anchor="@anchor" Elevation="2" Variant="@DrawerVariant.Responsive">
+            <MudDrawerHeader Class="d-flex justify-space-between">
+                <MudImage Height="45" Src="/images/logo.png" Alt="Tiempo de sites logo modificado"/>
+                <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.End" OnClick="@(() => OpenDrawer(Anchor.End))"/>
+            </MudDrawerHeader>
+            <NavMenu/>
+        </MudDrawer>
+    </div>
+    
     <MudMainContent>
         <MudContainer MaxWidth="MaxWidth.Large" Class="my-16 pt-16">
             @Body
@@ -29,13 +33,15 @@
     </MudMainContent>
 </MudLayout>
 
+
 @code {
     bool open;
     Anchor anchor;
-    
+
     void OpenDrawer(Anchor anchor)
     {
-        open = true;
+        open = !open;
         this.anchor = anchor;
     }
+
 }

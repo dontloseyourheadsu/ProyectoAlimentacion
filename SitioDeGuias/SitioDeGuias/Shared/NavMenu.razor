@@ -1,6 +1,22 @@
-﻿<MudNavMenu Style="@($"background: #252525; color: {Colors.Shades.White};")">
+﻿<MudThemeProvider Theme="_costumedColors" />
+
+<MudNavMenu Class="@(Orientation)" Style="@($"background: #252525; color: {Colors.Shades.White};")">
     <MudNavLink Href="" Match="NavLinkMatch.All" >Inicio</MudNavLink>
     <MudNavLink Href="counter" Match="NavLinkMatch.Prefix" >Platos</MudNavLink>
     <MudNavLink Href="fetchdata" Match="NavLinkMatch.Prefix" >Guías</MudNavLink>
     <MudNavLink Href="fetchdata" Match="NavLinkMatch.Prefix" >About</MudNavLink>
 </MudNavMenu>
+
+@code
+{
+    [Parameter]
+    public string ? Orientation { get; set; }
+
+    MudTheme _costumedColors = new ()
+    {
+        Palette = new Palette
+        {
+            Primary = "#C0FA00"
+        }
+    };
+}

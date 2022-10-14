@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l2COg29yAO89tM4xUhnBV7kYJHAkyuEepgvQZ0YQlCk=",
+  "Hash": "84k/QQX93/Roz6iZu0HVc/hDSXShkuXVHcgd1wbjn5o=",
   "Source": "SitioDeGuias",
   "BasePath": "/",
   "Mode": "Root",
@@ -6900,6 +6900,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SitioDeGuias.styles.css",
+      "SourceId": "SitioDeGuias",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "SitioDeGuias.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SitioDeGuias.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SitioDeGuias.bundle.scp.css",
+      "SourceId": "SitioDeGuias",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "/",
+      "RelativePath": "SitioDeGuias.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SitioDeGuias.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\favicon.ico",
