@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "84k/QQX93/Roz6iZu0HVc/hDSXShkuXVHcgd1wbjn5o=",
+  "Hash": "obTn8ufYKfyBEogfKMmYexr+x2z3VNNXpiqo/8t0IPY=",
   "Source": "SitioDeGuias",
   "BasePath": "/",
   "Mode": "Root",
@@ -6970,6 +6970,57 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\mundo-1.png",
+      "SourceId": "SitioDeGuias",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/mundo-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mundo-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\mundo-2.png",
+      "SourceId": "SitioDeGuias",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/mundo-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mundo-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\mundo-3.png",
+      "SourceId": "SitioDeGuias",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/mundo-3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mundo-3.png"
+    },
+    {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\index.html",
       "SourceId": "SitioDeGuias",
       "SourceType": "Discovered",
@@ -6987,12 +7038,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\sample-data\\weather.json",
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\Jsons\\countries.json",
       "SourceId": "SitioDeGuias",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
+      "RelativePath": "Jsons/countries.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7001,7 +7052,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+      "OriginalItemSpec": "wwwroot\\Jsons\\countries.json"
     }
   ]
 }

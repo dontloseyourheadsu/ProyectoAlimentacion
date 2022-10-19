@@ -1,11 +1,11 @@
 ﻿@inherits LayoutComponentBase
 
-<MudThemeProvider/>
+<MudThemeProvider Theme="_costumedColors" />
 <MudDialogProvider/>
 <MudSnackbarProvider/>
 
-<MudLayout>
-    <MudAppBar Class="d-flex justify-center" Style="@($"background: #252525; height: 80px")" Elevation="1">
+<MudLayout Style="overflow-x: hidden;">
+    <MudAppBar Class="d-flex justify-center" Style="@($"background: #252525; height: 80px; position: relative;")" Elevation="10">
         <MudImage Height="60" Src="/images/logo.png" Alt="Tiempo de sites logo modificado"/>
         <MudSpacer/>
         <div class="displays-on-big">
@@ -18,19 +18,12 @@
     
     <div class="displays-on-small">
         <MudDrawer Style="@($"background: #252525; color: {Colors.Shades.White};")" @bind-Open="@open" Anchor="@anchor" Elevation="2" Variant="@DrawerVariant.Responsive">
-            <MudDrawerHeader Class="d-flex justify-space-between">
-                <MudImage Height="45" Src="/images/logo.png" Alt="Tiempo de sites logo modificado"/>
-                <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.End" OnClick="@(() => OpenDrawer(Anchor.End))"/>
-            </MudDrawerHeader>
             <NavMenu/>
         </MudDrawer>
     </div>
-    
-    <MudMainContent>
-        <MudContainer MaxWidth="MaxWidth.Large" Class="my-16 pt-16">
-            @Body
-        </MudContainer>
-    </MudMainContent>
+
+    @Body
+        
 </MudLayout>
 
 
@@ -44,4 +37,11 @@
         this.anchor = anchor;
     }
 
+    MudTheme _costumedColors = new ()
+    {
+        Palette = new Palette
+        {
+            Primary = "#C0FA00"
+        }
+    };
 }

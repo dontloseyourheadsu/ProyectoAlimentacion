@@ -817,3 +817,4 @@ C:\Users\yisus\Documents\GitHub\ProyectoAlimentacion\SitioDeGuias\SitioDeGuias\o
 C:\Users\yisus\Documents\GitHub\ProyectoAlimentacion\SitioDeGuias\SitioDeGuias\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\yisus\Documents\GitHub\ProyectoAlimentacion\SitioDeGuias\SitioDeGuias\obj\Debug\net6.0\scopedcss\projectbundle\SitioDeGuias.bundle.scp.css
 C:\Users\yisus\Documents\GitHub\ProyectoAlimentacion\SitioDeGuias\SitioDeGuias\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\yisus\Documents\GitHub\ProyectoAlimentacion\SitioDeGuias\SitioDeGuias\obj\Debug\net6.0\scopedcss\Shared\TDSCard.razor.rz.scp.css

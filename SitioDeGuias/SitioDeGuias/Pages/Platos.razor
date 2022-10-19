@@ -1,0 +1,130 @@
+﻿@page "/platos"
+@inject HttpClient Http
+@using System.Globalization
+@using SitioDeGuias.Shared
+
+<PageTitle>Platos</PageTitle>
+
+<MudAutocomplete FullWidth="false" Class="pa-5" T="string" Label="Países" @bind-Value="_value" SearchFunc="@Search"
+                 ResetValueOnEmptyText="true"
+                 AdornmentIcon="@Icons.Filled.Search"
+                 CoerceText="true" CoerceValue="true"/>
+
+<MudSelect @bind-Value="@_sortMode" Label="Ordenar" Style="@("color: #252525")" Variant="Variant.Outlined">
+    <MudSelectItem Value="@("Pais")"/>
+    <MudSelectItem Value="@("Plato")"/>
+    <MudSelectItem Value="@("Ninguno")"/>
+</MudSelect>
+
+@if (_sortMode == "Pais" || _sortMode == "Plato" || _sortMode == "Ninguno")
+{
+    SortCards();
+}
+
+@if (_countriesNames.Contains(_value))
+{
+    int i = _countriesNames.IndexOf(_value);
+
+    <MudPaper Class="d-flex justify-center align-center flex-wrap gap-5 pa-5">
+        <MudCard Style="height: 300px; width: 250px">
+            <MudCardContent>
+                <div class="d-flex justify-center">
+                    <MudImage Height="180" Src="@_countries[i].PlateImage" Alt="@_countriesNames[i]"/>
+                </div>
+                <MudText Typo="Typo.h5">@_countries[i].Country</MudText>
+                <MudText Typo="Typo.body2">Nombre de Plato:</MudText>
+                <MudText Typo="Typo.body2">@_countries[i].PlateName</MudText>
+            </MudCardContent>
+        </MudCard>
+    </MudPaper>
+}
+else
+{
+    <MudPaper Class="d-flex justify-center align-center flex-wrap gap-5 pa-5">
+        @for (int j = 0; j < _countriesNames.Count; j++)
+        {
+            int i = j;
+
+            <MudCard Style="height: 300px; width: 250px">
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudImage Height="180" Src="@_countries[i].PlateImage" Alt="@_countriesNames[i]"/>
+                    </div>
+                    <MudText Typo="Typo.h5">@_countries[i].Country</MudText>
+                    <MudText Typo="Typo.body2">Nombre de Plato:</MudText>
+                    <MudText Typo="Typo.body2">@_countries[i].PlateName</MudText>
+                </MudCardContent>
+            </MudCard>
+        }
+    </MudPaper>
+}
+
+
+@code
+{
+    private string? _value;
+    private string? _sortMode { get; set; } = "Ordenar";
+    List<string> _countriesNames = new();
+
+    private static CountryFetch[]? _countries;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _countries = await Http.GetFromJsonAsync<CountryFetch[]>("Jsons/countries.json");
+
+        if (_countries != null)
+            for (int i = 0; i < _countries.Length; i++)
+            {
+                var country = _countries[i].Country;
+                if (country != null)
+                    _countriesNames.Add(country);
+            }
+    }
+
+    public class CountryFetch
+    {
+        public int? Id { get; set; }
+
+        public string? Country { get; set; }
+
+        public string? PlateName { get; set; }
+
+        public string? PlateImage { get; set; }
+    }
+
+
+    private async Task<IEnumerable<string>> Search(string value)
+    {
+        await Task.Delay(5);
+
+        if (string.IsNullOrEmpty(value))
+            return new string[0];
+        return _countriesNames.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+
+    private void SortCards()
+    {
+        if (_countries != null)
+
+            if (_sortMode!.Equals("Pais"))
+            {
+                _countries = _countries.OrderBy(country => (int)country.Country[0]).ToArray();
+            }
+            else if (_sortMode!.Equals("Plato"))
+            {
+                _countries = _countries.OrderBy(country => (int)country.PlateName[0]).ToArray();
+            }
+            else
+            {
+                _countries = _countries.OrderBy(country => country.Id).ToArray();
+            }
+
+        _countriesNames = new List<string>();
+        for (int i = 0; i < _countries.Length; i++)
+        {
+            var country = _countries[i].Country;
+            if (country != null)
+                _countriesNames.Add(country);
+        }
+    }
+}

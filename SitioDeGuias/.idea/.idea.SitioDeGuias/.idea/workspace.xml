@@ -9,9 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c09df8e-ae6c-46af-bfe1-ef9f82265c68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/About.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/Guias.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/GoogleSlides.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/GuideCard.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/TDSCard.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/TDSCard.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SitioDeGuias/wwwroot/Jsons/countries.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SitioDeGuias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SitioDeGuias/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/Platos.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/FetchData.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/Index.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.dll" afterDir="false" />
@@ -31,10 +39,13 @@
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/build-gz/7VAT2VnY.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/build-gz/7VAT2VnY.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/ref/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/ref/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/refint/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/refint/SitioDeGuias.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/bundle/SitioDeGuias.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/bundle/SitioDeGuias.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/projectbundle/SitioDeGuias.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/projectbundle/SitioDeGuias.bundle.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/wwwroot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/wwwroot/sample-data/weather.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +72,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SitioDeGuias: IIS Express">
     <configuration name="SitioDeGuias: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SitioDeGuias/SitioDeGuias.csproj" />
@@ -117,6 +128,17 @@
       <workItem from="1665585661599" duration="47000" />
       <workItem from="1665708152839" duration="3912000" />
       <workItem from="1665719630557" duration="4129000" />
+      <workItem from="1665937750804" duration="9249000" />
+      <workItem from="1665961130245" duration="1130000" />
+      <workItem from="1665970297693" duration="393000" />
+      <workItem from="1666011623963" duration="1662000" />
+      <workItem from="1666013839207" duration="9654000" />
+      <workItem from="1666026724541" duration="14370000" />
+      <workItem from="1666048331174" duration="1252000" />
+      <workItem from="1666061204558" duration="5142000" />
+      <workItem from="1666103906334" duration="2396000" />
+      <workItem from="1666110852634" duration="4771000" />
+      <workItem from="1666185439962" duration="4830000" />
     </task>
     <servers />
   </component>

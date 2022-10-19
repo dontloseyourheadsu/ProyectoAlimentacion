@@ -1,12 +1,80 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Inicio</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Hello, world!</MudText>
-<MudText Class="mb-8">Welcome to your new app, powered by MudBlazor!</MudText>
-<MudAlert Severity="Severity.Normal">
-    You can find documentation and examples on our website here:
-    <MudLink Href="https://mudblazor.com" Typo="Typo.body2" Color="Color.Inherit">
-        <b>www.mudblazor.com</b>
-    </MudLink>
-</MudAlert>
+<div style="background: #252525; width: 100%; height: 300px; " class="d-flex justify-space-between">
+    <MudText Style="@($"color: {Colors.Shades.White}; font-family: Bebas Neue; font-size: 3.5em; ")" Class="pa-8">Guías de<br/>Alimentación<br/> del Mundo</MudText>
+    <MudHidden Breakpoint="Breakpoint.Xs" Invert="true">
+        <MudImage ObjectFit="ObjectFit.Contain" Src="images/mundo-1.png" Alt="mundo de comida"></MudImage>
+    </MudHidden>
+    <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+        <MudImage ObjectFit="ObjectFit.Contain" Src="images/mundo-3.png" Alt="mundo de comida"></MudImage>
+    </MudHidden>
+</div>
+
+<MudDivider Style="color: white;"></MudDivider>
+
+<MudCarousel Class="mud-width-full" Style="@($"height:400px; color: {Colors.Shades.White}")" ShowArrows="true" ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true" TData="object">
+    <MudCarouselItem Transition="_transition" Style="background: #85AD00;">
+        <div class="d-flex align-center justify-center px-10" style="height:100%">
+            <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h4">Dos elementos imprescindibles en una alimentación saludable: la adecuada variedad y la proporcionalidad.</MudText>
+            </MudHidden>
+            <MudHidden Breakpoint="Breakpoint.Xs" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h6">Dos elementos imprescindibles en una alimentación saludable: la adecuada variedad y la proporcionalidad.</MudText>
+            </MudHidden>
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="_transition" Style="background: #252525;">
+        <div class="d-flex align-center justify-center px-10" style="height:100%">
+            <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h4">Las primeras guías dietéticas fueron estadunidenses en la década de los 70.</MudText>
+            </MudHidden>
+            <MudHidden Breakpoint="Breakpoint.Xs" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h6">Las primeras guías dietéticas fueron estadunidenses en la década de los 70.</MudText>
+            </MudHidden>
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="_transition" Style="background: #85AD00;">
+        <div class="d-flex align-center justify-center px-10" style="height:100%">
+            <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h4">Hay más de 100 guías alimentarias en todo el mundo.</MudText>
+            </MudHidden>
+            <MudHidden Breakpoint="Breakpoint.Xs" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h6">Hay más de 100 guías alimentarias en todo el mundo.</MudText>
+            </MudHidden>
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="_transition" Style="background: #252525;">
+        <div class="d-flex align-center justify-center px-10" style="height:100%">
+            <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h4">Cada guía se adapta a la situación alimentaria, a su población y su cultura.</MudText>
+            </MudHidden>
+            <MudHidden Breakpoint="Breakpoint.Xs" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h6">Cada guía se adapta a la situación alimentaria, a su población y su cultura.</MudText>
+            </MudHidden>
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="_transition" Style="background: #85AD00;">
+        <div class="d-flex align-center justify-center px-10" style="height:100%">
+            <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h4">El 88% de los países enfrenta una grave carga de dos o tres formas de malnutrición.</MudText>
+            </MudHidden>
+            <MudHidden Breakpoint="Breakpoint.Xs" Invert="true">
+                <MudText Style="@($"color: {Colors.Shades.White}; ")" Align="Align.Center" Typo="Typo.h6">El 88% de los países enfrenta una grave carga de dos o tres formas de malnutrición.</MudText>
+            </MudHidden>
+        </div>
+    </MudCarouselItem>
+</MudCarousel>
+
+<MudDivider Style="color: white;"></MudDivider>
+
+<MudPaper Style="width: 95%; height: 400px; " Class="my-4 pa-4 mx-auto" Elevation="2">
+    <GoogleSlides/>
+</MudPaper>
+
+
+@code
+{
+    Transition _transition = Transition.Slide;
+}

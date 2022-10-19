@@ -1,0 +1,52 @@
+@using System.Reflection.Metadata
+<MudCard Elevation="5" Style="@($"{_cardSizes[0]} width: 250px")">
+    <MudCardContent>
+        <MudText Typo="Typo.h5">@Country</MudText>
+        <MudText Typo="Typo.body2">Año: @Year</MudText>
+        <div style="@(_cardSizes[1]) " class=" overflow-y-hidden">
+            <MudText Align="Align.Justify" Typo="Typo.body2">@GuideName</MudText>
+            <div class="d-flex justify-center">
+                <MudText Align="Align.Justify">@GuideDescription</MudText>
+            </div>
+        </div>
+        <MudCardActions>
+            @if (!_expanded)
+            {
+                <MudButton OnClick="Expand" Variant="Variant.Text"  Color="Color.Primary">Más</MudButton>
+            }
+            else
+            {
+                <MudButton OnClick="Reduce" Variant="Variant.Text" Color="Color.Primary">Menos</MudButton>
+            }
+        </MudCardActions>
+    </MudCardContent>
+</MudCard>
+
+@code {
+    [Parameter]
+    public string? Country { get; set; }
+    [Parameter]
+    public int? Year { get; set; }
+    [Parameter]
+    public string? GuideName { get; set; }
+    [Parameter]
+    public string? GuideDescription { get; set; }
+
+    bool _expanded = false;
+    static string[] _cardSizes = new[] { "height: 300; ", "height: 180px; "};
+    static string[] _expandedCardSizes = new[] { "", ""};
+    string[] _reducedCardSizes = new[] { "height: 300; ", "height: 180px; "};
+
+
+    private void Expand()
+    {
+        _expanded = true;
+        _cardSizes = _expandedCardSizes;
+    }
+    
+    private void Reduce()
+    {
+        _expanded = false;
+        _cardSizes = _reducedCardSizes;
+    }
+}

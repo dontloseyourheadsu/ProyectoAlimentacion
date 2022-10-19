@@ -16,3 +16,43 @@ div .displays-on-big[b-r6umvlujjx] {
 .mud-navmenu.mud-navmenu-default .mud-nav-link.active-tds:not(.mud-nav-link-disabled)[b-tyhhh0che7] {
     color: yellow;
 }
+/* /Shared/TDSCard.razor.rz.scp.css */
+.container[b-jqpc1sed86] {
+    position: relative;
+    width: 100%;
+}
+
+.image[b-jqpc1sed86] {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay[b-jqpc1sed86] {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #252525;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container:hover .overlay[b-jqpc1sed86] {
+    width: 100%;
+    left: 0;
+}
+
+.text[b-jqpc1sed86] {
+    white-space: nowrap;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
