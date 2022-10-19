@@ -9,29 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c09df8e-ae6c-46af-bfe1-ef9f82265c68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/About.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/Guias.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/GoogleSlides.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/GuideCard.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/TDSCard.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/TDSCard.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SitioDeGuias/wwwroot/Jsons/countries.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SitioDeGuias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SitioDeGuias/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/Platos.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/FetchData.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SitioDeGuias/Pages/About.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/Pages/About.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/SitioDeGuias.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.dll.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/SitioDeGuias.pdb.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/SitioDeGuias.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
@@ -39,13 +24,7 @@
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/build-gz/7VAT2VnY.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/build-gz/7VAT2VnY.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/ref/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/ref/SitioDeGuias.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/refint/SitioDeGuias.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/refint/SitioDeGuias.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/bundle/SitioDeGuias.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/bundle/SitioDeGuias.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/projectbundle/SitioDeGuias.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/scopedcss/projectbundle/SitioDeGuias.bundle.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SitioDeGuias/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SitioDeGuias/wwwroot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SitioDeGuias/wwwroot/sample-data/weather.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +118,7 @@
       <workItem from="1666103906334" duration="2396000" />
       <workItem from="1666110852634" duration="4771000" />
       <workItem from="1666185439962" duration="4830000" />
+      <workItem from="1666198313789" duration="303000" />
     </task>
     <servers />
   </component>
