@@ -197,13 +197,13 @@
       "mscorlib.dll": "sha256-MnMyZHtcymf0sLxXeFBbQZVsdNdxT0GXJaa9t3ZdSek=",
       "netstandard.dll": "sha256-+SGdnDhVMiZ9hq0EsYwJ+mcK0odf3bAtXnSKLorGDCs=",
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
-      "SitioDeGuias.dll": "sha256-LYpIT0neEXIx0lvsyYOGZUcr1wvRLnd1F+rGp+o\/LpU="
+      "SitioDeGuias.dll": "sha256-cboxBVoSyuQa97ZwmJuDfxE0yvaBF+TSw5qwhqZcvC8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "SitioDeGuias.pdb": "sha256-EVWs4UQgwGjRMlxwXJJj+qnO6Yn+df24im24lMdP82U="
+      "SitioDeGuias.pdb": "sha256-TIEdrDjSXGlDd10\/Aq+zUpBM0hKkCSJ43h\/SawG8Y3o="
     },
     "runtime": {
       "dotnet.6.0.9.d9w76yby75.js": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
