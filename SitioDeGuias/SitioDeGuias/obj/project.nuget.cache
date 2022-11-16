@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o5rNwSqv7FgT753AfAbp1CtxAL4E/XKJs+QqW0GF3DCsnscLA4gfSkxZYgftEhR7Rae3QjJNz/Xaj7uw2soP3w==",
+  "dgSpecHash": "esfAU1NVn9vghz0M2z2COsVq5wHec0RHTI30edSMuyT3kfwXib0/bB4vYueJRkgkoIFaW1orp1qw4oEwbU1+yA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\SitioDeGuias.csproj",
   "expectedPackageFiles": [
@@ -33,8 +33,7 @@
     "C:\\Users\\yisus\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\yisus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\yisus\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\yisus\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\yisus\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.9.nupkg.sha512"
+    "C:\\Users\\yisus\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

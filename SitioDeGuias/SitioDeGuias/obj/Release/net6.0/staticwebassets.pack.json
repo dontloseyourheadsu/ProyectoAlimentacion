@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\bin\\Release\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Release\\net6.0\\build-gz\\hSXIIIV4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\obj\\Release\\net6.0\\scopedcss\\bundle\\SitioDeGuias.styles.css",
+      "PackagePath": "staticwebassets\\SitioDeGuias.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\Jsons\\countries.json",
+      "PackagePath": "staticwebassets\\Jsons\\countries.json"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\mundo-1.png",
+      "PackagePath": "staticwebassets\\images\\mundo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\mundo-2.png",
+      "PackagePath": "staticwebassets\\images\\mundo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\images\\mundo-3.png",
+      "PackagePath": "staticwebassets\\images\\mundo-3.png"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\ProyectoAlimentacion\\SitioDeGuias\\SitioDeGuias\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.SitioDeGuias.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.SitioDeGuias.props",
+      "PackagePath": "build\\SitioDeGuias.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SitioDeGuias.props",
+      "PackagePath": "buildMultiTargeting\\SitioDeGuias.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.SitioDeGuias.props",
+      "PackagePath": "buildTransitive\\SitioDeGuias.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

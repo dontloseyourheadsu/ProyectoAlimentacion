@@ -1,0 +1,137 @@
+[
+    {
+        "id":"1",
+        "country": "México",
+        "guideName":"Guías Alimentarias y de Actividad Física en contexto de sobrepeso y obesidad en la población mexicana",
+        "year":"2015",
+        "guideDescription":"La guía alimentaria actual es un plato dividido en tres partes (El Plato del Buen Comer), cada una de las cuales representa un grupo de alimentos: verduras y frutas, cereales, legumbres y alimentos de origen animal (incluyendo lácteos, carnes, aves y pescados). El plato tiene una banda alrededor con un color diferente para cada grupo: verde para verduras y frutas, amarillo para cereales y rojo para legumbres y productos animales.",
+        "plateName":"El Plato del Bien Comer",
+        "plateImage":"https://www.fao.org/typo3temp/pics/953416afab.jpg"
+    },
+    {
+        "id":"2",
+        "country": "Canada",
+        "guideName":" Guía de alimentos de Canada",
+        "year":"1942",
+        "guideDescription":"La guía de alimentos de Canadá brinda orientación dietética para miembros de la población canadiense de dos años de edad y mayores. Fue desarrollado utilizando un enfoque digital primero y se entrega a través de una aplicación web compatible con dispositivos móviles www.canada.ca/foodguide",
+        "plateName":"Guía de alimentos de Canadá.",
+        "plateImage":"https://www.fao.org/typo3temp/pics/ed12c46cc6.jpg"
+    },
+    {
+        "id":"3",
+        "country": "Estados Unidos",
+        "guideName":"Directrices dietéticas para estadounidenses, 2020-2025.",
+        "year":"2020",
+        "guideDescription":"El ícono de alimentos del Departamento de Agricultura de EE. UU., MyPlate, sirve como un recordatorio para ayudar a las personas a elegir alimentos más saludables. El ícono de MiPlato enfatiza los grupos de frutas, vegetales, granos, alimentos proteicos y lácteos. ",
+        "plateName":"Mi plato",
+        "plateImage": "https://www.fao.org/typo3temp/pics/6b061590b9.jpg"
+    },
+    {
+        "id":"4",
+        "country": "Australia",
+        "guideName":"Pautas dietéticas australianas",
+        "year":"2013",
+        "guideDescription":"Australia utiliza una guía de alimentación saludable que representa visualmente en un plato la proporción de los cinco grupos de alimentos para el consumo recomendado cada día. Los grupos de alimentos incluidos en el plato son: alimentos a base de cereales en grano; hortalizas y legumbres/frijoles; frutas; carnes y aves magras, pescado, huevos, tofu, nueces y semillas; productos lácteos reducidos en grasa y/o alternativas. Fuera del plato está el consejo de beber mucha agua, y la recomendación de usar aceites en pequeñas cantidades. El alcohol y los alimentos altamente procesados (altos en azúcar, grasa y sodio) deben consumirse solo ocasionalmente y en pequeñas cantidades. ",
+        "plateName":"La guía australiana para una alimentación saludable",
+        "plateImage": "https://www.fao.org/typo3temp/pics/1ab98c9e56.jpg"
+    },
+    {
+        "id":"5",
+        "country": "Malaysia",
+        "guideName":"Pautas dietéticas de Malasia.",
+        "year":"2010",
+        "guideDescription":"La pirámide alimentaria de Malasia se divide en cuatro niveles correspondientes a seis grupos de alimentos. En la base hay arroz, cereales, fideos y tubérculos, para comer con moderación, en la segunda capa verduras y frutas para comer en abundancia; se recomienda comer alimentos de origen animal y legumbres con moderación; y grasas, azúcar y sal para comer en cantidades más pequeñas.",
+        "plateName":"La pirámide alimenticia de Malasia.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/289843680d.jpg"
+    },
+    {
+        "id":"6",
+        "country": "Thailand",
+        "guideName":"Pautas dietéticas de Malasia.",
+        "year":"2010",
+        "guideDescription":"La guía de comida tailandesa es una bandera colgante, conocida como 'la bandera de la nutrición'. Las cuatro capas de la bandera de nutrición indican el tipo y la cantidad de los grupos de alimentos que se recomiendan para el consumo. Las recomendaciones son las siguientes: (i) comer arroz, productos derivados del arroz, otros cereales y grupos de alimentos ricos en almidón en abundancia; (ii) comer muchas verduras y frutas; (iii) comer carne, legumbres, huevos y leche adecuadamente; (iv) comer cantidades limitadas de aceite, azúcar y sal.",
+        "plateName":"La bandera de la nutrición.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/5e55938ea1.jpg"
+    },
+    {
+        "id":"7",
+        "country": "Korea",
+        "guideName":"Pautas dietéticas generales para los coreanos",
+        "year":"2016",
+        "guideDescription":"Las Directrices integran el consumo de nutrientes bien balanceados, una dieta saludable y patrones dietéticos al estilo coreano, y la seguridad en la vida dietética.\nLa Sociedad Coreana de Nutrición desarrolló las ruedas de equilibrio de alimentos que representan las proporciones recomendadas de cinco grupos de alimentos, así como la importancia de la actividad física regular. ",
+        "plateName":"Las ruedas de equilibrio de alimentos.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/bc72a27a21.jpg"
+    },
+    {
+        "id":"8",
+        "country": "Japón",
+        "guideName":"Pautas dietéticas generales para los japoneses",
+        "year":"2005",
+        "guideDescription":"El 'peonza guía de comida japonesa' está diseñado para parecerse al conocido juguete tradicional japonés. Es un cono invertido giratorio dividido de arriba hacia abajo en capas de grupos de alimentos que representan alimentos principalmente en forma/platos cocidos. El orden de los grupos de alimentos viene dado por las raciones diarias recomendadas. En la parte superior se encuentran los platos a base de cereales (arroz, pan, fideos y pasta), seguidos de los platos a base de verduras (incluyendo ensaladas, verduras cocidas y sopas), y platos de pescado, huevos y carne. En la parte inferior están la leche y la fruta. Una persona corriendo encima de la peonza giratoria representa la importancia de realizar actividad física regularmente para gozar de una buena salud. La guía también recomienda beber mucha agua o té, y moderar el consumo de snacks altamente procesados, dulces y bebidas azucaradas.\nLa guía de alimentos va acompañada de un cuadro que indica las raciones diarias recomendadas para cada grupo de alimentos e ilustrada con ejemplos de alimentos y platos para cumplir con las recomendaciones.",
+        "plateName":"Las ruedas de equilibrio de alimentos.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/63891f6673.jpg"
+    },
+    {
+        "id":"9",
+        "country": "India",
+        "guideName":"Pautas dietéticas para indios: un manual.",
+        "year":"2011",
+        "guideDescription":"India utiliza una serie de elementos gráficos para representar los mensajes de sus directrices, uno de ellos es una pirámide alimentaria. La pirámide se divide en cuatro niveles de alimentos según el consumo recomendado: cereales y legumbres/frijoles en la base deben consumirse en cantidad suficiente, verduras y frutas en el segundo nivel deben consumirse liberalmente, alimentos de origen animal y aceites en el tercer nivel deben consumirse con moderación y, en el vértice, los alimentos altamente procesados con alto contenido de azúcar y grasas deben comerse con moderación. Acompañando a la pirámide hay una recomendación de realizar actividad física regular y advertencias contra el tabaquismo y el consumo de alcohol.",
+        "plateName":"La pirámide alimenticia india.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/9983d0979a.jpg"
+    },
+    {
+        "id":"10",
+        "country": "Reino Unido ",
+        "guideName":"Guía Eatwell",
+        "year":"2016",
+        "guideDescription":"La guía alimentaria nacional del Reino Unido, Eatwell Guide, es una representación visual de los tipos y proporciones de alimentos necesarios para una dieta sana y equilibrada. Muestra que las personas deben tratar de comer: muchas papas, pan, arroz, pasta y otros carbohidratos con alto contenido de fibra y almidón; al menos cinco porciones de una variedad de frutas y verduras; algunos frijoles, legumbres, pescado, huevos, carne y otras proteínas; algunos productos lácteos o alternativos y solo pequeñas cantidades de alimentos y bebidas con alto contenido de grasa y/o azúcar. Se basa en 5 grupos de alimentos y muestra la proporción que cada grupo de alimentos debe aportar a una dieta sana y equilibrada. Las proporciones que se muestran son representativas del consumo de alimentos durante el período de un día o incluso una semana, no necesariamente cada hora de comida.",
+        "plateName":"Guía Eatwell",
+        "plateImage": "https://www.fao.org/typo3temp/pics/1c71175f08.jpg"
+    },
+    {
+        "id":"11",
+        "country": "España",
+        "guideName":"Come sano y muévete: 12 decisiones saludables",
+        "year":"2008",
+        "guideDescription":"España utiliza una pirámide alimentaria con recomendaciones dietéticas en línea con la dieta mediterránea tradicional. La pirámide alimentaria se divide en grupos de alimentos clasificados en tres niveles de consumo: diario (cereales y productos integrales, frutas, verduras, aceite de oliva y lácteos), semanal (pescado, aves, legumbres, frutos secos, patatas, huevos, carnes rojas y productos cárnicos) y ocasionalmente (dulces, snacks y bebidas azucaradas). La pirámide también incluye recomendaciones sobre actividad física.",
+        "plateName":"Pirámide alimenticia NAOS",
+        "plateImage": "https://www.fao.org/typo3temp/pics/cc29845852.jpg"
+    },
+    {
+        "id":"12",
+        "country": "Alemania",
+        "guideName":"Diez directrices de la Sociedad Alemana de Nutrición para una dieta sana",
+        "year":"2022",
+        "guideDescription":"Alemania utiliza el círculo de nutrición como guía alimentaria. El círculo de nutrición se divide en seis grupos de alimentos: cereales y papas; verduras; frutas; leche y productos lácteos; carne, embutidos, pescado y huevos; y grasas y aceites. El tamaño de los segmentos del grupo disminuye del primero al último grupo, ilustrando así las cantidades relativas de los grupos de alimentos individuales. Un séptimo grupo (agua y bebidas), representado por un vaso de agua, se coloca en medio del círculo de nutrición.",
+        "plateName":"El círculo de nutrición alemán.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/16233267c8.png"
+    },
+    {
+        "id":"13",
+        "country": "Benin",
+        "guideName":"Pautas dietéticas de Benín",
+        "year":"2015",
+        "guideDescription":"La representación gráfica de las pautas es una casa tradicional redonda con techo de paja. Cinco grupos de alimentos se muestran como capas de pared en orden de mayor a menor cantidad: cereales/tubérculos; alimentos con proteínas vegetales/animales; verduras; frutas; y productos lácteos (o alimentos ricos en Ca como sustitutos). En la entrada hay una botella de agua, símbolo de la hospitalidad beninesa y recordatorio de que se debe beber mucha agua durante todo el día.",
+        "plateName":"Guía de alimentos de Benín",
+        "plateImage": "https://www.fao.org/typo3temp/pics/d417713ccb.jpg"
+    },
+    {
+        "id":"14",
+        "country": "Seychelles",
+        "guideName":"Pautas dietéticas de Seychelles",
+        "year":"2006",
+        "guideDescription":"La guía alimentaria de Seychelles es un disco que muestra cinco grupos de alimentos. El tamaño de cada segmento refleja la proporción que cada grupo debe aportar a una dieta saludable. Según la guía alimentaria, las frutas y verduras, y los grupos de alimentos arroz, pan, cereales, pasta y tubérculos deben constituir el grueso de la dieta diaria. Se deben consumir regularmente cantidades moderadas de pescado, carne, huevos, alternativas de pescado/carne y productos lácteos. Los productos ricos en grasas y azúcares deben consumirse en pequeñas cantidades. Además, la guía alimentaria recomienda beber 8 vasos de agua al día.",
+        "plateName":"Guía de alimentos de Seychelles",
+        "plateImage": "https://www.fao.org/typo3temp/pics/7ec3918d32.jpg"
+    },
+    {
+        "id":"15",
+        "country": "Nigeria",
+        "guideName":"Pautas dietéticas basadas en alimentos para Nigeria: una guía para una alimentación saludable.",
+        "year":"2001",
+        "guideDescription":"La guía alimentaria de Nigeria es una pirámide alimentaria dividida en cinco grupos de alimentos. En la parte inferior se encuentran el pan, los cereales y los tubérculos, seguidos de las hortalizas y frutas. Ambos grupos deben consumirse en cada comida. Los huevos, el pescado, la carne y los productos lácteos están en el tercer nivel y deben consumirse con moderación. Los aceites y las grasas se deben comer con moderación según la pirámide, y los dulces se limitan a raras ocasiones. Se coloca un vaso de agua fuera de la pirámide con el consejo de beber siempre mucha agua.",
+        "plateName":"La pirámide alimenticia de Nigeria.",
+        "plateImage": "https://www.fao.org/typo3temp/pics/d9e7baf156.jpg"
+    }
+]
